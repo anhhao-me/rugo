@@ -1,0 +1,14 @@
+port: 60000
+database: mongodb://db/rugodb
+jwt: jsonwebtokensecret
+models: 
+  pets:
+    __label: Pet Manager
+    name: 
+      type: text
+      unique: true
+      required: true
+admin:
+  email: admin@example.com
+  apiKey: defaultapikey
+  password: defaultpassword

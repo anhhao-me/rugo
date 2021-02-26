@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "api",
+      "cwd": "/srv/www/api",
+      "script": "npm run serve"
+    }
+  ]
+}
