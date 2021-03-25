@@ -1,1 +1,7 @@
 mongodb/
+*.tmp
+tmp/
+.tmp/
+configs/*.yaml
+configs/*.env
+storage/*

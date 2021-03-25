@@ -1,0 +1,9 @@
+[submodule "lib/api"]
+	path = lib/api
+	url = https://github.com/anhhao-me/rugo-api.git
+[submodule "lib/admin"]
+	path = lib/admin
+	url = https://github.com/anhhao-me/rugo-admin.git
+[submodule "lib/view"]
+	path = lib/view
+	url = git@github.com:anhhao-me/rugo-view.git
