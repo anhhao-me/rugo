@@ -1,0 +1,27 @@
+{
+  "name": "rugo",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "init": "./init.sh",
+    "build": "cd lib/admin && cp ../../configs/admin.env .env && BASE_URL=/admin/ npm run build",
+    "dev": "NODE_ENV=development node index",
+    "build-dev": "npm run build && npm run dev",
+    "git-update": "git submodule foreach git pull origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhhao-me/rugo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhhao-me/rugo/issues"
+  },
+  "homepage": "https://github.com/anhhao-me/rugo#readme"
+}
